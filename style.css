@@ -4,7 +4,8 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
-    background: purple url(./images/bg-mobile.svg) no-repeat center;
+    width: 100%;
+    background: hsl(257, 40%, 49%) url(./images/bg-mobile.svg) no-repeat;
 }
 
 #tot {
@@ -17,15 +18,14 @@ body {
     height: 1000px;
     width: 100%;
 
-    padding: 0px 50px;
     margin-top: 50px;
 }
 
 /* ///////// TOP /////////  */
 .logo {
-    width: 200px;
+    width: 150px;
     
-    padding-right: 200px;
+    padding-right: 150px;
     margin: 0px auto;
 }
 
@@ -33,7 +33,7 @@ body {
 
 .content {
 
-    width: 400px;
+    width: 300px;
     margin: 0px auto;
 
     color: white;
@@ -41,20 +41,25 @@ body {
 }
 
 .preview {
-    max-width: 400px;
+    max-width: 300px;
+    margin-top: -50px;
 }
 .text {
-    margin-top:70px;
+    margin-top:30px;
+}
+.title {
+    font-size: 24px;
 }
 .desc {
     margin-top: 30px;
 
-    font-size: 21px;
+    font-size: 16px;
+    line-height: 1.7;
 }
 button {
-    margin-top: 50px;
-    width: 350px;
-    height: 70px;
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
 
     border-radius: 35px;
 }
@@ -64,11 +69,22 @@ button {
 .share {
     width: 400px;
     margin: 0px auto;
+    margin-top: -30px;
 
     display: flex;
     justify-content: center;
     gap: 2rem;
 }
-.share img {
+.s1, .s2, .s3 {
+    
     width: 40px;
+    height: 40px;
+
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.share img {
+    width: 30px;
+    height: 30px;
+    /* margin: auto auto; */
 }
