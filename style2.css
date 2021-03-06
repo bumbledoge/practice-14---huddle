@@ -1,6 +1,7 @@
 @media screen and (min-width: 1000px) {
     body {
         background: top hsl(257, 40%, 49%) url(./images/bg-desktop.svg) no-repeat;
+        overflow-x: hidden;
     }
     .logo {
         padding-right: 1000px;
@@ -21,7 +22,7 @@
          margin-top: 0px;
      }
      .text {
-         width: 50ch;
+         max-width: 60ch;
          margin-top: -50px;
          margin-left: 40px;
      }
@@ -34,6 +35,6 @@
     }
     .share {
         
-        padding-left: 1000px;
+        padding-left: 800px;
     }
 }
