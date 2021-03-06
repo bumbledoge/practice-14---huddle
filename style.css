@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: purple url(./images/bg-mobile.svg) no-repeat center;
+}
+
+#tot {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    /* justify-content:stretch; */
+
+    
+    height: 1000px;
+    width: 100%;
+
+    margin-top: 50px;
+}
+
+/* ///////// TOP /////////  */
+.logo {
+    width: 200px;
+    
+    padding-right: 200px;
+    margin: 0px auto;
+}
+
+/* ///////// MID //////////  */
+
+.content {
+
+    width: 400px;
+    margin: 0px auto;
+
+    color: white;
+    text-align: center;
+}
+
+.preview {
+    max-width: 400px;
+}
+.text {
+    margin-top:70px;
+}
+.desc {
+    margin-top: 30px;
+
+    font-size: 21px;
+}
+button {
+    margin-top: 50px;
+    width: 350px;
+    height: 70px;
+
+    border-radius: 35px;
+}
+
+/* ///////// BOT //////////  */
+
+.share {
+    width: 400px;
+    margin: 0px auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.share img {
+    width: 40px;
+}
