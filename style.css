@@ -15,7 +15,7 @@ body {
     /* justify-content:stretch; */
 
     
-    height: 1000px;
+    /* height: 1000px; */
     width: 100%;
 
     margin-top: 50px;
@@ -32,19 +32,26 @@ body {
 /* ///////// MID //////////  */
 
 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    width: 300px;
+    /* width: 300px; */
     margin: 0px auto;
 
     color: white;
     text-align: center;
 }
 
+/* it's and image dawg  */
 .preview {
     max-width: 300px;
     margin-top: -50px;
 }
+/* /////////////////  */
+
 .text {
+    width: 300px;
     margin-top:30px;
 }
 .title {

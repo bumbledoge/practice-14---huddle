@@ -1,0 +1,39 @@
+@media screen and (min-width: 1000px) {
+    body {
+        background: top hsl(257, 40%, 49%) url(./images/bg-desktop.svg) no-repeat;
+    }
+    .logo {
+        padding-right: 1000px;
+    }
+    .content {
+        /* width: 100%; */
+        flex-direction: row;
+        
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+
+        text-align: left;
+    }
+     .preview {
+         max-width: 600px;
+
+         margin-top: 0px;
+     }
+     .text {
+         width: 50ch;
+         margin-top: -50px;
+         margin-left: 40px;
+     }
+       .title {
+           font-size: 33px;
+       }
+    button {
+        width: 180px;
+        height: 55px;
+    }
+    .share {
+        
+        padding-left: 1000px;
+    }
+}
